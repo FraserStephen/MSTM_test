@@ -5,7 +5,7 @@
 !  last revised: 15 January 2011
 !
       module numconstants
-      implicit none 
+      implicit none
       integer :: print_intermediate_results
       integer, allocatable :: monen(:)
       integer, private :: nmax=0
@@ -754,24 +754,22 @@
           real(8) :: alpha,beta,cbeam,gbn,x_temp,gb_data(22)
           complex(8) :: pmnp0(0:nodr+1,nodr,2,2)
 
-          gb_data = (/1077d-4, 1539d-4, 1964d-4, 1392d-4, 830d-4, 16d-4,-282d-4,&
-          &           -292d-4,-144d-4,-139d-4,79d-4, 10d-4, 3d-4, -325d-4, 64d-4,&
-          &           -44d-4, -185d-4, 201d-4, -104d-4,  43d-4, -45d-4, -323d-4/)
+          !gb_data = (/1077d-4, 1539d-4, 1964d-4, 1392d-4, 830d-4, 16d-4,-282d-4,&
+          !&           -292d-4,-144d-4,-139d-4,79d-4, 10d-4, 3d-4, -325d-4, 64d-4,&
+          !&           -44d-4, -185d-4, 201d-4, -104d-4,  43d-4, -45d-4, -323d-4/)
           call planewavecoef(alpha,beta,nodr,pmnp0)
           do n=1,nodr
             write(*,*) n
-            !if (cbeam==0) then
-            !  gbn=dexp(-((dble(n)+.5d0)*cbeam)**2.)
-            !else
-            !  x_temp = (dble(n) +.5d0)*sin(cbeam)
-            !  gbn = .5d0*besj0(x_temp)
-              !gbn=.25d0*((1+cos(cbeam)-.5d0*sin(cbeam)**2.)* sin(x_temp)/x_temp +.5d0*sin(cbeam)**2.*((3./x_temp**2. -1)*sin(x_temp)/x_temp - 3*cos(x_temp)/x_temp**2.)*sin(cbeam))
-            !endif
-            if (n<=22) then
-              gbn = gb_data(n)
+            if (cbeam==0) then
+              gbn=dexp(-((dble(n)+.5d0)*cbeam)**2.)
             else
-              gbn = 0
+
+              gbn = 1/(n + .5d0) * besj1(18.41d0 * (n+ .5d0))
+
+              write(*,*) gbn
+
             endif
+
             do p=1,2
                 do k=1,2
                    do m=-n,-1
