@@ -1,0 +1,87 @@
+G95 module created on Fri May 11 17:28:33 2018 from mpidefs-serial.f90
+If you edit this, you'll get what you deserve.
+module-version 9
+(() () () () () () () () () () () () () () () () () () () () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'mpi_comm_null' 'mpidefs' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (INTEGER 4) 0 0 () () () '' () ())
+3 'mpi_comm_world' 'mpidefs' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (INTEGER 4) 0 0 () () () '' () ())
+4 'mpidefs' 'mpidefs' 1 ((MODULE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+UNKNOWN) 0 0 () () () '' () ())
+5 'mstm_mpi' 'mpidefs' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE
+SUBROUTINE) (PROCEDURE 0) 0 0 (6 NONE 7 NONE 8 NONE 9 NONE 10 NONE 11
+NONE 12 NONE 13 NONE 14 NONE 15 NONE 16 NONE 17 NONE 18 NONE 19 NONE 20
+NONE 21 NONE 22 NONE 23 NONE 24 NONE 25 NONE) () () '' () ())
+26 'mstm_mpi_comm_world' 'mpidefs' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN
+NONE NONE) (INTEGER 4) 0 0 () () () '' () ())
+27 'mstm_mpi_max' 'mpidefs' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (INTEGER 4) 0 0 () () () '' () ())
+28 'mstm_mpi_min' 'mpidefs' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (INTEGER 4) 0 0 () () () '' () ())
+29 'mstm_mpi_sum' 'mpidefs' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (INTEGER 4) 0 0 () () () '' () ())
+25 'mpi_operation' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+OPTIONAL DUMMY) (INTEGER 4) 0 0 () () () '' () ())
+24 'mpi_new_group_list' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE
+NONE DIMENSION OPTIONAL DUMMY) (INTEGER 4) 0 0 () (1 ASSUMED_SIZE (
+CONSTANT (INTEGER 4) 0 '1') ()) () '' () ())
+23 'mpi_new_group' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+OPTIONAL DUMMY) (INTEGER 4) 0 0 () () () '' () ())
+22 'mpi_new_comm' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+OPTIONAL DUMMY) (INTEGER 4) 0 0 () () () '' () ())
+21 'mpi_size' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+OPTIONAL DUMMY) (INTEGER 4) 0 0 () () () '' () ())
+20 'mpi_rank' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+OPTIONAL DUMMY) (INTEGER 4) 0 0 () () () '' () ())
+19 'mpi_group' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+OPTIONAL DUMMY) (INTEGER 4) 0 0 () () () '' () ())
+18 'mpi_comm' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+OPTIONAL DUMMY) (INTEGER 4) 0 0 () () () '' () ())
+17 'mpi_number' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+OPTIONAL DUMMY) (INTEGER 4) 0 0 () () () '' () ())
+16 'mpi_send_buf_dc' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (COMPLEX 8) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+15 'mpi_send_buf_dp' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (REAL 8) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+14 'mpi_send_buf_c' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (COMPLEX 4) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+13 'mpi_send_buf_r' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+12 'mpi_send_buf_i' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (INTEGER 4) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+11 'mpi_recv_buf_dc' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (COMPLEX 8) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+10 'mpi_recv_buf_dp' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (REAL 8) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+9 'mpi_recv_buf_c' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (COMPLEX 4) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+8 'mpi_recv_buf_r' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+7 'mpi_recv_buf_i' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE
+DIMENSION OPTIONAL DUMMY) (INTEGER 4) 0 0 () (1 ASSUMED_SIZE (CONSTANT (
+INTEGER 4) 0 '1') ()) () '' () ())
+6 'mpi_command' '' 30 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE DUMMY)
+(CHARACTER 1 (())) 0 0 () () () '' () ())
+)
+
+('mpi_comm_null' 0 2 'mpi_comm_world' 0 3 'mpidefs' 0 4 'mstm_mpi' 0 5
+'mstm_mpi_comm_world' 0 26 'mstm_mpi_max' 0 27 'mstm_mpi_min' 0 28
+'mstm_mpi_sum' 0 29)
