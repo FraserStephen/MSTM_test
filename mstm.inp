@@ -1,5 +1,5 @@
 number_spheres
-0
+1
 output_file
 test2.dat
 length_scale_factor
@@ -29,9 +29,9 @@ incident_or_target_frame
 normalize_scattering_matrix
 1
 sphere_sizes_and_positions
-1.2566 0.0 0.0 16.5 39.4 0.0
+1.2 0.0 0.0 1.4 4.4 0.0
 gaussian_beam_constant
-0.3491d0
+1d0
 gaussian_beam_focal_point
 0.d0,0.d0,0d0
 calculate_near_field
@@ -43,7 +43,7 @@ near_field_plane_coord
 near_field_output_data
 0
 near_field_plane_vertices
-10.0 -5.0 20.0 5.0
+0.0 -4.0 8.0 4.0
 spacial_step_size
 0.01
 end_of_options
