@@ -29,7 +29,7 @@ incident_or_target_frame
 normalize_scattering_matrix
 1
 sphere_sizes_and_positions
-1.2 0.0 0.0 1.4 4.4 0.0
+1.1948 0.0 0.0 1.9914 4.4 0.0
 gaussian_beam_constant
 1d0
 gaussian_beam_focal_point
@@ -37,13 +37,13 @@ gaussian_beam_focal_point
 calculate_near_field
 1
 near_field_plane_position
-0
+1.9914
 near_field_plane_coord
-2
+3
 near_field_output_data
 0
 near_field_plane_vertices
-0.0 -4.0 8.0 4.0
+-2.0 -2.0 2.0 2.0
 spacial_step_size
-0.01
+0.005
 end_of_options

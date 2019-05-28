@@ -764,7 +764,7 @@
               gbn=dexp(-((dble(n)+.5d0)*cbeam)**2.)
             else
 
-              gbn = 1/(n + .5d0) * besj1(18.41d0 * (n+ .5d0))
+              gbn = 2/(n + .5d0) * besj1(18.41d0 * (n+ .5d0))
 
               write(*,*) gbn
 
