@@ -29,7 +29,7 @@ incident_or_target_frame
 normalize_scattering_matrix
 1
 sphere_sizes_and_positions
-1.1948 0.0 0.0 1.9914 4.4 0.0
+0.8763 0.0 0.0 1.9914 4.4 0.0
 gaussian_beam_constant
 1d0
 gaussian_beam_focal_point
